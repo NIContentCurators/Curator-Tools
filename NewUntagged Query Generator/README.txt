@@ -18,7 +18,7 @@ INSTRUCTIONS
 Repeat steps 6-9 until you reach the end of query.txt.
 
 10. Enter the last query in output.txt, ALL DOC IDS TAGGED.
-11. Click Select All >> Save.
+11. Click Select All >> Add Doc(s).
 
 KNOWN ISSUES
 
