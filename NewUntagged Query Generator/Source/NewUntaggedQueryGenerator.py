@@ -1,8 +1,8 @@
 '''
-Content Metadata Tag Parser 2.0.1
+Content Metadata Tag Parser 2.0.2
 Nicholas Boni
 Staff Content Curator
-January 13, 2023
+January 26, 2023
 '''
 
 def parse_tag_data(datafile):
