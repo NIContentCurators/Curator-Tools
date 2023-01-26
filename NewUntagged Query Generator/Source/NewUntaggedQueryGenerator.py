@@ -94,7 +94,7 @@ def generate_searchmetadata_query(list_of_tag_dicts,groupings_dict):
 
 	HEADER = "SEARCH METADATA TAGS\nSee the readme file for instructions.\n\nCONFIGURATION\
 	\nHits: 5000\nFields: id,title,stripe_s,grouping1_s,grouping2_s,grouping3_s,grouping4_s,grouping5_s,tagsgeneric_s\n\n"
-	QUERY_BASE = "and(nicontenttype:or(knowledgebase,tutorial,example,supplemental,compatibility),nilanguage:en,documentid:or("
+	QUERY_BASE = "and(or(and(nicontenttype:or(knowledgebase,tutorial,supplemental,compatibility),uri:en-us),and(nicontenttype:example,nilanguage:en)),documentid:or("
 	outstr = HEADER
 
 	for tag_dict in list_of_tag_dicts:
