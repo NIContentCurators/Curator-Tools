@@ -1,7 +1,7 @@
-Improved Search Metadata Tag Generator v2.0.1
+Improved Search Metadata Tag Generator v2.0.2
 Nicholas Boni
 Staff Content Curator
-January 23, 2023
+January 26, 2023
 
 INSTRUCTIONS
 
